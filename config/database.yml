@@ -12,11 +12,11 @@ default: &default
 development:
   <<: *default
   database: db/development.sqlite3
-  adapter: mysql
-    database: library_development
-    username: root
-    password: [password]
-    host: localhost
+#  adapter: postgresql
+#  database: d49as7d7003k48
+#  username: fpfkoyefpncqvf
+#  password: PqFp2aNRMTPgmnXLFY72upb0a8
+#  host: ec2-107-20-159-155.compute-1.amazonaws.com
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
